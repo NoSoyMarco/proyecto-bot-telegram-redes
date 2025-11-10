@@ -3,6 +3,9 @@ UniHelperBot – Proyecto de Bot Educativo con Red Neuronal (PyTorch + Telegram)
 Este repositorio contiene el desarrollo de UniHelperBot, un asistente educativo para estudiantes de la Universidad del Valle, implementado en Python con soporte de redes neuronales basadas en PyTorch.
 El proyecto integra inteligencia artificial con un bot de Telegram para ofrecer ayuda académica, acceso a licencias y soporte institucional.
 
+
+
+
 Estructura del proyecto
 
 El proyecto parte de las redes neuronales originales (red_1 a red_4) y las adapta para tareas semánticas dentro del bot, añadiendo nuevos módulos para la interacción con Telegram.
@@ -29,6 +32,11 @@ requirements_bot.py — Dependencias necesarias del bot y las redes.
 
 README.md — Este archivo.
 
+
+
+
+
+
 Instalación y configuración
  Requisitos previos
 
@@ -46,9 +54,6 @@ numpy, pandas, torchtext
 
 dotenv (para leer el TOKEN del bot)
 
- Clonar el repositorio
-git clone https://github.com/tuusuario/UniHelperBot.git
-cd UniHelperBot
 
  Crear entorno virtual
 python -m venv venv
